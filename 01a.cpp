@@ -1,16 +1,16 @@
-//Write a c++ program to find the largest of three numbers
+// Write a c++ program to find the largest of three numbers
 
-#include<iostream>
+#include <iostream>
 using namespace std;
-inline float lar(float a, float b ,float c)
+inline float lar(float a, float b, float c)
 {
-return ((a>b&&a>c)?a:b>c?b:c);
+    return ((a>b&&a>c)?a:b>c?b:c);
 }
 int main()
 {
-float x,y,z;
-cout<<"\nEnter three numbers:\n";
-cin>>x>>y>>z;
-cout<<"Largest= "<<lar(x,y,z);
-return 0;
+    float x, y, z;
+    cout << "\nEnter three numbers:\n";
+    cin >> x >> y >> z;
+    cout << "Largest= " << lar(x, y, z);
+    return 0;
 }

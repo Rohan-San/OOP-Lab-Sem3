@@ -75,13 +75,7 @@ int main()
         h[i].getdata();
     }
     cout << "Patient database \n";
-    cout << "NAME"
-         << "\t"
-         << "AGE"
-         << "\t"
-         << "DATE_OF_ADMISSION "
-         << "\t"
-         << "DATE_OF_DISCHARGE \n";
+    cout << "NAME \t AGE \t DATE_OF_ADMISSION \t DATE_OF_DISCHARGE \n";
     for (int i = 0; i < n; i++)
     {
         h[i].display();
@@ -95,15 +89,7 @@ int main()
         a1[i].get();
     }
     cout << "pediatric Patient database \n";
-    cout << "NAME"
-         << "\t"
-         << "AGE"
-         << "\t"
-         << "DATE_OF_ADMISSION "
-         << "\t"
-         << "DATE_OF_DISCHARGE"
-         << "\t"
-         << "VACCINE \n";
+    cout << "NAME \t AGE \t DATE_OF_ADMISSION \t DATE_OF_DISCHARGE \t VACCINE \n";
     for (int i = 0; i < n; i++)
     {
         a1[i].put();

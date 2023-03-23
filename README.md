@@ -1,12 +1,14 @@
 # Corresponding Question Numbers
 
-1.  a) Write a C++ program to find the largest of three numbers.
-    b) Write a C++ program to implement the following operations without using string library functions
-        i. Copy content of one string variable to another string variable.
-        ii. Concatenate two strings
+1.  1. Write a C++ program to find the largest of three numbers.
+    2. Write a C++ program to implement the following operations without using string library functions
+        1. Copy content of one string variable to another string variable.
+        2. Concatenate two strings
 
 2.  Design a C++ program to implement stack using classes and objects and perform the following operations:
-        a) Push b) Pop c) Display
+    1. Push
+    2. Pop
+    3. Display
 
 3.  Design a C++ program to read the data of n employee and compute net salary of each employee using pointer.
     Given that an employee class contains following: -Data members: Employee no, Employee name, Basic salary, DA, IT, Net salary,
